@@ -1,0 +1,16 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: user-service
+  data:
+    mongodb:
+      database: mydb
+      uri: mongodb://localhost:27017
+
+eureka:
+  instance:
+    hostname: localhost
+
+

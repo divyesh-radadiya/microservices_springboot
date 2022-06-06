@@ -1,0 +1,14 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: contact-service
+  data:
+    mongodb:
+      database: mydb
+      uri: mongodb://localhost:27017
+
+eureka:
+  instance:
+    hostname: localhost
